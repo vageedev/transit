@@ -33,7 +33,7 @@ const BusList = () =>{
     return(
         <div>
 
-            <div><h4>List of Routes</h4></div>
+            <div><h4>List of Routes and the Vehicles Assigned</h4></div>
             <br/>
             <table className={"table table-borderless table-stripped"}>
                 <thead className={"thead-light"}>

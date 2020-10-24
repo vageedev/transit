@@ -19,7 +19,10 @@ function App() {
       <div className={"container"}>
           <Router>
               <Header/>
-              <NavigationBar/>
+              <div className={"container"}>
+                  <NavigationBar/>
+              </div>
+
               <br/>
               <Route path={"/registerVehical"} component={Assaigning_routes} />
               <Route path={"/addRoutes"} component={Routes}/>

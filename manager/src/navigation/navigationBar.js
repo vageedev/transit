@@ -10,9 +10,6 @@ class NavigationBar extends Component{
                 <div className={"collapse navbar-collapse"}>
                     <ul className={"navbar-nav mr-auto"}>
                         <li className={"navbar-item"}>
-                            <Link to={"/manager"} className={"nav-link"}><span style={{color : "white"}}></span> Manager</Link>
-                        </li>
-                        <li className={"navbar-item"}>
                             <Link to={"/registerVehical"} className={"nav-link"}><span style={{color : "white"}}></span>Register Vehicles</Link>
                         </li>
                         <li className={"navbar-item"}>
